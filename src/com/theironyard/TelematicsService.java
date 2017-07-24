@@ -99,7 +99,7 @@ public class TelematicsService {
 
             //Construct the DASHBOARD HTML Content
             HTMLContent = HTMLContent.replace( "[average]", "" + noOfFiles + "" );
-            HTMLContent = HTMLContent.replace( "[newVehicleData]", "" + avgVehicleData + "" );
+            HTMLContent = HTMLContent.replace( "[avgVehicleData]", "" + avgVehicleData + "" );
             HTMLContent = HTMLContent.replace( "[history]", "" + vehicleHistory + "" );
 
 
